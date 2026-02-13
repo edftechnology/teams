@@ -68,6 +68,40 @@ Para configurar/instalar/usar o `Microsoft Teams for Linux` no `Linux Ubuntu`, v
     sudo apt full-upgrade -y
     ```
 
+## 1. Instalar pelo PWA (Progressive Web App)
+
+A própria Microsoft recomenda usar o `Teams` como **Web App instalado via navegador**.
+
+Se você já usa:
+
+- Google Chrome
+
+ou
+
+- Microsoft Edge
+
+Você pode instalar o `Teams` como se fosse um aplicativo nativo.
+
+### 1.1 Método 1 (RECOMENDADO): via Chrome
+
+1. Acesse:
+
+    ```bash
+    google-chrome https://teams.microsoft.com
+    ```
+
+2. Clique em:
+
+    ```bash
+    ⋮  →  Cast, Save and Share  →  Install Page as App
+    ```
+
+    ou:
+
+    ```bash
+    Instalar Microsoft Teams
+    ```
+
 ### 1.1 Configurar/Instalar/Usar o `Microsoft Teams for Linux` pelo `.deb`
 
 Para instalar o `Microsoft Teams for Linux` no `Linux Ubuntu`. A Microsoft oferece uma versão do `Teams` especificamente para `Linux`, que pode ser baixada e instalada diretamente. Aqui estão os passos básicos para a instalação:
@@ -168,7 +202,7 @@ Para desinstalar o `Microsoft Teams` que foi instalado usando um pacote `.deb` n
 4. Caso precise remover algum resquício de dependências não utilizadas, você pode executar:
 
     ```bash
-    sudo apt autoremove
+    sudo apt autoremove -y
     ```
 
     Isso garantirá que qualquer dependência que não seja mais necessária seja removida, liberando espaço em disco.
