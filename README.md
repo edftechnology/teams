@@ -68,7 +68,7 @@ Para configurar/instalar/usar o `Microsoft Teams for Linux` no `Linux Ubuntu`, v
     sudo apt full-upgrade -y
     ```
 
-## 1. Instalar pelo PWA (Progressive Web App)
+## 2. Instalar pelo PWA (Progressive Web App)
 
 A própria Microsoft recomenda usar o `Teams` como **Web App instalado via navegador**.
 
@@ -82,7 +82,7 @@ ou
 
 Você pode instalar o `Teams` como se fosse um aplicativo nativo.
 
-### 1.1 Método 1 (RECOMENDADO): via Chrome
+### 2.1 Método 1 (RECOMENDADO): via Chrome
 
 1. Acesse:
 
@@ -102,7 +102,7 @@ Você pode instalar o `Teams` como se fosse um aplicativo nativo.
     Instalar Microsoft Teams
     ```
 
-### 1.1 Configurar/Instalar/Usar o `Microsoft Teams for Linux` pelo `.deb`
+### 2.2 Configurar/Instalar/Usar o `Microsoft Teams for Linux` pelo `.deb`
 
 Para instalar o `Microsoft Teams for Linux` no `Linux Ubuntu`. A Microsoft oferece uma versão do `Teams` especificamente para `Linux`, que pode ser baixada e instalada diretamente. Aqui estão os passos básicos para a instalação:
 
@@ -129,7 +129,7 @@ Para instalar o `Microsoft Teams for Linux` no `Linux Ubuntu`. A Microsoft ofere
 Lembre-se de que a `Microsoft` atualiza o `Teams` regularmente, então é uma boa ideia manter seu software atualizado. A instalação pelo pacote `.deb` geralmente não configura um repositório para atualizações automáticas, então você pode precisar baixar e instalar manualmente novas versões do `Teams` para mantê-lo atualizado.
 
 
-#### 1.1.1 Código completo configurar/instalar/usar
+#### 2.2.1 Código completo configurar/instalar/usar
 
 Para configurar/instalar/usar o `Microsoft` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 
@@ -145,7 +145,7 @@ Para configurar/instalar/usar o `Microsoft` no `Linux Ubuntu` sem precisar digit
     NÃO há.
     ```
 
-### 1.2 Configurar/Instalar/Usar o `Microsoft Teams for Linux` pelo `snap` [3]
+### 2.3 Configurar/Instalar/Usar o `Microsoft Teams for Linux` pelo `snap` [3]
 
 Aqui estão os passos básicos para a instalação:
 
@@ -155,7 +155,7 @@ Aqui estão os passos básicos para a instalação:
     sudo snap install teams-for-linux
     ```
 
-### 1.3 Configurar/Instalar/Usar o `Microsoft Teams` pelo `flatpak`
+### 2.4 Configurar/Instalar/Usar o `Microsoft Teams` pelo `flatpak`
 
 Aqui estão os passos básicos para a instalação:
 
@@ -172,9 +172,9 @@ Aqui estão os passos básicos para a instalação:
     ```
 
 
-## 2. Desinstalar o `Microsoft Teams`
+## 3. Desinstalar o `Microsoft Teams`
 
-### 2.1 Instalado pelo `.deb`
+### 3.1 Instalado pelo `.deb`
 
 Para desinstalar o `Microsoft Teams` que foi instalado usando um pacote `.deb` no `Linux Ubuntu`, você pode usar o `dpkg` (Debian Package Manager). Siga os passos abaixo:
 
@@ -209,7 +209,7 @@ Para desinstalar o `Microsoft Teams` que foi instalado usando um pacote `.deb` n
 
 Após executar esses comandos, o `Microsoft Teams` deve estar completamente desinstalado do seu sistema Ubuntu.
 
-### 2.2 Desinstar pelo `snap`
+### 3.2 Desinstar pelo `snap`
 
 Se o `Microsoft Teams` foi instalado via `snap`, você pode desinstalá-lo usando o comando snap remove. Siga os passos abaixo:
 
